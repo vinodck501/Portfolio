@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(1, 1, 52);
+  background-color: rgb(1, 1, 36);
   color: white;
   font-family:'poppins',sans-serif;
 }
@@ -12,15 +12,31 @@ nav{
   justify-content: space-around;
   align-items: center;
   height: 80px;
-  background-color: rgb(28, 28, 103);
+  background-color: rgb(3, 3, 54);
+}
+main hr{
+  border: 0px;
+  background: #150b6d;
+  height: 2px;
+  margin: 40px 84px;
 }
 nav ul{
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 nav ul li{
   list-style: none;
   margin: 0 23px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover{
+  color: rgb(196, 100, 22);
+  font-size: 1.02rem;
+
 }
 .left{
   font-size: 1.5rem;
@@ -28,14 +44,93 @@ nav ul li{
 .firstSection{
   display: flex;
   justify-content: space-around;
-  margin: 23px 0;
+  align-items: centers;
+  margin: 120px 0;
 }
-.firstSection div{
+.firstSection>div{
   width: 30%;
 }
 .leftSection{
-  background-color: red;
+  font-size: 2.8rem;
+  margin: 30px;
 }
-.rightSection{
-  background-color: red;
+.leftSection .btn{
+  padding: 10px;
+  background-color: rgb(9, 9, 115);
+  color: white;
+  font-size: 1rem;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.rightSection img{
+  width: 90%;
+  margin: 10px 0;
+}
+.purple{
+  color: purple;
+}
+#element{
+  color: blueviolet;
+}
+.secondSection{
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.secondSection h1{
+  font-size: 1.6rem;
+}
+.text-gray{
+  color: gray;
+  font-size: 15px;
+}
+.secondSection .box{
+  background-color: white;
+  height: 2px;
+  margin: 56px 0;
+  width: 73vw;
+  display: flex;
+}
+.secondSection .vertical{
+  background-color: white;
+  height: 93px;
+  width: 1px;
+  margin: 0 110px ;
+}
+.secondSection img{
+  position: relative;
+  width: 23px;
+  top: -22px;
+  left: -6px;
+}
+.vertical-title{
+  position: relative;
+  top: 70px;
+  width: 100px;
+}
+.vertical-desc{
+  position: relative;
+  top: 70px;
+  width: 150px;
+  font-size: 6px;
+  color: gray;
+}
+.vertical-desc:hover{
+  font-size: 10px;
+}
+footer{
+  background-color: #040212;
+}
+.footer > div{
+  width: 100px;
+}
+.footer{
+  display: flex;
+  padding: 23px 123px;
+  justify-content: space-around;
+}
+footer .footer-rights{
+  text-align: center;
+  color: gray;
+  padding: 2rem;
 }
